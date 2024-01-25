@@ -1,0 +1,56 @@
+.header {
+    margin-top: 15%;
+    position: relative;
+}
+
+#headerh3 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+#headerh1 {
+    color: #66FAFF;
+    text-align: center;
+    font-size: 70px;
+}
+
+#icon {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    
+}
+
+.background{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+}
+
+#backgroundimg{
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width:700px) {
+    #headerh1{
+        font-size: 40px;
+        width: 100%;
+        text-align: center;
+    }
+
+    #headerh3{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .header{
+        position: absolute;
+        top: 20%;
+    }
+
+}
